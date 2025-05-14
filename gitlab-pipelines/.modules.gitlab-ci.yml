@@ -1,0 +1,13 @@
+include:
+  - 'cypress/e2e/build/.module.gitlab-ci.yml'
+  - 'cypress/e2e/04_pre_requisite/.module.gitlab-ci.yml'
+  - 'cypress/e2e/01_smoke/featAlpha/.module.gitlab-ci.yml'
+  - 'cypress/e2e/01_smoke/featBravo/.module.gitlab-ci.yml'
+  - 'cypress/e2e/01_smoke/featCharlie/.module.gitlab-ci.yml'
+  - 'cypress/e2e/02_sanity/featAlpha/.module.gitlab-ci.yml'
+  - 'cypress/e2e/02_sanity/featBravo/.module.gitlab-ci.yml'
+  - 'cypress/e2e/02_sanity/featCharlie/.module.gitlab-ci.yml'
+  - 'cypress/e2e/03_regression/featAlpha/.module.gitlab-ci.yml'
+  - 'cypress/e2e/03_regression/featBravo/.module.gitlab-ci.yml'
+  - 'cypress/e2e/03_regression/featCharlie/.module.gitlab-ci.yml'
+  - 'cypress/e2e/report/.module.gitlab-ci.yml'
