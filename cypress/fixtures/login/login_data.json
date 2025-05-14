@@ -1,0 +1,17 @@
+{
+    "validUser": {
+      "email": "user@email.com",
+      "password": "password"
+    },
+    "invalidUser": {
+      "email": "invaliduser@email.com",
+      "password": "password"
+    },
+    "adminCreds": {
+      "email": "admin@email.com",
+      "password": "password"
+    },
+    "skipSpecFiles": ["01_login.spec.ts", "01_rbac.spec.ts"],
+    "adminSpecFiles": []
+  }
+  

@@ -1,0 +1,4 @@
+include:
+  - "/gitlab-pipelines/.config.gitlab-ci.yml"
+  - "/gitlab-pipelines/.backend.gitlab-ci.yml"
+  - "/gitlab-pipelines/.modules.gitlab-ci.yml"
